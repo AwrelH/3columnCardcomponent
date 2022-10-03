@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display&family=Lexend+Deca&display=swap');
+
+body {
+    background-color: hsl(0, 0%, 95%);
+}
+
+.text {
+    color:hsla(0, 0%, 100%, 0.75)
+}
+
+.card-settings {
+    padding: 32px;
+    height: 600px;
+    width: 375px;
+}
+
+.card-settings:nth-of-type(1) {
+    background-color: hsl(31, 77%, 52%);
+}
+
+.card-settings:nth-of-type(2) {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.card-settings:nth-of-type(2) {
+    background-color:  hsl(179, 100%, 13%);
+}
+
+h1 {
+    font-family: 'Big Shoulder Display', sans-serif;
+    text-transform: uppercase;
+    font-size: 2rem;
+    color: hsl(0, 0%, 95%);
+}
+
+p {
+    font-family: 'Lexend Deca', sans-serif;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 15px;
+    width: 28ch;
+}
+
+.icon {
+    height: 50px;
+    width: 50px;
+/*    
+    background-color: black;
+    opacity: .3; */
+
+}
+
+.learn-more {
+    padding: 10px;
+    text-decoration: none;
+   
+    border: 2px solid hsla(0, 0%, 100%, 0.75);
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color:hsl(0, 0%, 95%);
+    font-weight: 400;
+
+
+}
+.learn-more:nth-of-type(1) {
+    color: hsl(31, 77%, 52%);
+}
+.learn-more:nth-of-type(2) {
+    color: hsl(184, 100%, 22%);
+}
+.learn-more:nth-of-type(3) {
+    color:  hsl(179, 100%, 13%);
+}
+
+.learn-more:active:nth-last-of-type(1) {
+    background-color: hsl(31, 77%, 52%);
+    color: hsl(0, 0%, 95%) ;
+
+}
+
+a:active:nth-last-of-type(2) {
+    background-color: hsl(184, 100%, 22%);
+    color: hsl(0, 0%, 95%) ;
+}
+
+a:active:nth-last-of-type(3) {
+    background-color:  hsl(179, 100%, 13%);
+    color: hsl(0, 0%, 95%) ;
+}
