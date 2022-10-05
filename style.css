@@ -101,10 +101,6 @@ p {
     color: hsl(0, 0%, 95%) ;
 }
 
-@media (max-width: 570px) {
-
-    /* .card-settings {
-        margin: 0 auto
-        
-    } */
+.stretch {
+    font-stretch: ultra-condensed;
 }
