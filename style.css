@@ -8,8 +8,12 @@ body {
     margin: 0 auto;
 }
 
-.row {
-    border-radius: 5px;
+.thing {
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    overflow: hidden;
+    
 }
 
 .text {
@@ -71,13 +75,13 @@ p {
 
 
 }
-.sedan{
+.sedan, .sedan:hover{
     color: hsl(31, 77%, 52%);
 }
-.suv{
+.suv, .suv:hover {
     color: hsl(184, 100%, 22%);
 }
-.lux {
+.lux, .lux:hover {
     color:  hsl(179, 100%, 13%);
 }
 
@@ -95,4 +99,12 @@ p {
 .learn-more:active:nth-of-type(3) {
     background-color:  hsl(179, 100%, 13%);
     color: hsl(0, 0%, 95%) ;
+}
+
+@media (max-width: 570px) {
+
+    /* .card-settings {
+        margin: 0 auto
+        
+    } */
 }
